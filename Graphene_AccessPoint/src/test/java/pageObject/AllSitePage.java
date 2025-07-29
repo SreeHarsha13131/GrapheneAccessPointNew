@@ -70,6 +70,7 @@ public class AllSitePage {
 
     private void navigateUsingHomeIcon() {
         try {
+            System.out.println("Exeample for git push");
             WebElement homeIconElement = wait.until(ExpectedConditions.elementToBeClickable(homeIcon));
             Thread.sleep(2000);
             homeIconElement.click();
