@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extent>
+    <configuration>
+        <theme>standard</theme>
+        <encoding>UTF-8</encoding>
+        <documentTitle>BDD Test Report</documentTitle>
+        <reportName>Automation Execution</reportName>
+        <scripts>
+            <![CDATA[
+                $(document).ready(function() {
+                    $('.logo-container').html('<img src="https://example.com/logo.png" width="150">');
+                });
+            ]]>
+        </scripts>
+    </configuration>
+</extent>
