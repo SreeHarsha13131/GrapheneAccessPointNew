@@ -64,6 +64,7 @@ public class AllSitePage {
                 System.out.println("Error handling site: " + site);
                 e.printStackTrace();
                 recoverToBaseState(parentWindow);
+                System.out.println("Dev branch code git push");
             }
         }
     }
